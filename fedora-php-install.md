@@ -37,6 +37,14 @@ Copyright (c) The PHP Group
 Zend Engine v3.4.0, Copyright (c) Zend Technologies
 ````
 
+## if php 8
+````
+sudo dnf -y install dnf-plugins-core
+sudo dnf config-manager --set-enabled remi
+sudo dnf module reset php -y
+sudo dnf module -y install php:remi-8.0
+````
+
 ## To install additional PHP packages/extensions, use the command syntax:
 ````
 sudo yum install php-xxx
