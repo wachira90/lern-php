@@ -26,3 +26,11 @@ php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 ````
 rm composer-setup.php
 ````
+
+## check version
+
+````
+[root@xxx ~]# composer -V
+Composer version 2.5.2 2023-02-04 14:33:22
+````
+
